@@ -1,6 +1,6 @@
-import GameGraphics
+import Interface
 import random
 
-game = GameGraphics.snakeGame(display=True)
+game = Interface.Interface(display=True)
 
 print(game.start())
