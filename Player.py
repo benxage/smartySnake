@@ -2,5 +2,4 @@ import Interface
 import random
 
 game = Interface.Interface(display=True)
-
-print(game.start())
+print(f'Game over! Scored: {game.start()} points!')
